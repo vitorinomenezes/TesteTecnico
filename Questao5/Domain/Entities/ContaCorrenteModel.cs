@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 namespace Questao5.Domain.Entities
 {
-    public class ContaCorrenteModel
+    public class ContaCorrenteModel 
     {
         [Required(ErrorMessage = "Informe o número da conta")]
         public int IdContaCorrente { get; set; }
